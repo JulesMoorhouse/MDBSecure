@@ -1,0 +1,261 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{F61F4DB9-F8E4-4B08-8D34-86CD5421C64F}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "mcl32.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "MDBSecure"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "MDBSecure"
+                StartupObject = "MDBSecure.mdbsecdemo"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "SharpZipLib"
+                    AssemblyName = "SharpZipLib"
+                    HintPath = "..\..\Components\SharpZipLib.dll"
+                />
+                <Reference
+                    Name = "adodb"
+                    AssemblyName = "ADODB"
+                    HintPath = "C:\Program Files\Microsoft.NET\Primary Interop Assemblies\adodb.dll"
+                />
+                <Reference
+                    Name = "ADOX"
+                    AssemblyName = "ADOX"
+                    HintPath = "C:\Program Files\Common Files\System\ado\ADOX.dll"
+                />
+                <Reference
+                    Name = "JRO"
+                    AssemblyName = "JRO"
+                    HintPath = "C:\Program Files\Common Files\System\ado\JRO.dll"
+                />
+                <Reference
+                    Name = "AxInterop.SHDocVw"
+                    AssemblyName = "AxInterop.SHDocVw"
+                    HintPath = "..\..\Components\AxInterop.SHDocVw.dll"
+                />
+                <Reference
+                    Name = "SHDocVw"
+                    AssemblyName = "SHDocVw"
+                    HintPath = "..\..\Components\SHDocVw.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "AppBasicDebug"
+                    Project = "{CF1AED15-D31E-4511-92F3-0C695B374547}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "MCLCore"
+                    Project = "{1C92A96A-1A9D-44A7-BD6A-26393A931FF5}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "ProbHandDebug"
+                    Project = "{4879AD5A-9D41-4649-94FE-6A7BF9459510}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "WinOnlyDebug"
+                    Project = "{108516BC-BE06-4CD6-8D6D-82FFD2C143CB}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "UIStyle"
+                    Project = "{C9793665-FF61-4C82-98D7-0A36A33818C0}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+                <Import Namespace = "AppBasic" />
+                <Import Namespace = "WinOnly" />
+                <Import Namespace = "ProbHand" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EveryApp.vb"
+                    Link = "..\..\SharedLibraries\StdLibs\EveryApp.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "flame.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FlameDB.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "mainfrm.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "mainfrm.resx"
+                    DependentUpon = "mainfrm.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "mcl32.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MCLLogo.vb"
+                    Link = "..\..\SharedLibraries\StdLibs\MCLLogo.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MCLLogo.resx"
+                    Link = "..\..\SharedLibraries\StdLibs\MCLLogo.resx"
+                    DependentUpon = "MCLLogo.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "mdbsecdemo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewStatus.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewStatus.resx"
+                    DependentUpon = "NewStatus.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OpenInAccess.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OpenInAccess.resx"
+                    DependentUpon = "OpenInAccess.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "strat1.vb"
+                    Link = "..\..\SharedLibraries\StdLibs\strat1.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "strat1about.vb"
+                    Link = "..\..\SharedLibraries\StdLibs\strat1about.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "strat1about.resx"
+                    Link = "..\..\SharedLibraries\StdLibs\strat1about.resx"
+                    DependentUpon = "strat1about.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "strat3welcome.vb"
+                    Link = "..\..\SharedLibraries\StdLibs\strat3welcome.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "strat3welcome.resx"
+                    Link = "..\..\SharedLibraries\StdLibs\strat3welcome.resx"
+                    DependentUpon = "strat3welcome.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+
