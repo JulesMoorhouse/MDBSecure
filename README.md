@@ -44,13 +44,16 @@ I have included a Components folder which includes most of the required DLLs.
 
 You’ll notice there are two project files for Ideaspad and a number of DLLs suffixed with Debug, these are added to one solution for easier debugging. (Why, well there needs to be separate solution to allow for obfuscating / strong name signing, which is used in the batch files.)
 
-So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs\IdeasPad\IdeasPadDebug.sln XXXXX
+So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs\MDBSecure\MDBSecureDebug.sln
 
 However you can also use the batch files in the build folder, start with the DLLs.
 
 <br/>
 
 # Installation
+
+You can install the app via [MDBSecure.msi](https://github.com/Jules2010/MDBSecure/blob/master/Build/MDBSecure/DistBuild/MDBSecure.msi) which will inform you about any system requirements you don't already have.
+
 <br/>
 
 # Contributing
