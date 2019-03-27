@@ -92,7 +92,7 @@ However you can also use the batch files in the build folder, start with the DLL
 
 # Installation
 
-You can install the app via [MDBSecure.msi](https://github.com/Jules2010/MDBSecure/blob/master/Build/MDBSecure/DistBuild/MDBSecure.msi) which will inform you about any system requirements you don't already have.
+You can install the app via [MDBSecure.msi](https://github.com/Jules2010/MDBSecure/blob/master/Build/MDBSecure/DistBuild/MDBSecure.msi) which will inform you about any system requirements you don't already have. Once installed, help is provided to guide you through the process.
 
 <br/>
 
