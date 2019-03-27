@@ -60,32 +60,13 @@ Written by [Jules Moorhouse](https://www.julesmoorhouse.com).
 
 ## Features                                      
 
-<table>
-  <tr>
-    <td>
-      
- * Removes Admin user permissions                
- * Assigns new super user                       
- * Encrypt database                       
- * MS Access 2000 / 2002 / 2003  format                    
- * Workgroup creation     
-      
-    </td>
-    <td>
-      
- * Append tables from another DB 
- * Creates Jet Connection Strings 
- * Opens Secure Databases with MS Access
- * Check for Updates   
- * Easy to use, help provided 
-
-    </td>
-  </tr>
-</table>
-
-
-
-
+| Features | <!-- --> |
+| - | - |
+| Removes Admin user permissions | Append tables from another DB |
+| Assigns new super user | Creates Jet Connection Strings |
+| Encrypt database | Opens Secure Databases with MS Access |
+| MS Access 2000 / 2002 / 2003  format | Check for Updates |
+| Workgroup creation | Easy to use, help provided |
 
 # Background
 
