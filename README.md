@@ -34,6 +34,10 @@ Written by [Jules Moorhouse](https://www.julesmoorhouse.com).
 # Features and functionality
 
 ### What is MDBSecure?
+
+<img align="left" src="gfx/mdbsecure110-big.gif" width="205" height="207">
+<img align="left" src="gfx/spacer.gif" width="10" height="217">
+
 * An MS Access Security utility, providing protection for your databases.
 * MDBSecure follows the recommended approach to securing Microsoft&reg; Access databases, it will encrypt your access database and remove security weaknesses.
 * SecFaq - Security FAQ (Recommended approach by Microsoft)
