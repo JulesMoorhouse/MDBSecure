@@ -58,18 +58,30 @@ Written by [Jules Moorhouse](https://www.julesmoorhouse.com).
 <br>
 <li>For more information about the theory behind securing MS Access databases please see the <a target="_Blank" href="http://support.microsoft.com/default.aspx?scid=KB;en-us;q165009">SECFAQ</a> (security FAQ) document.</li>  <BR><BR>
 
+## Features                                      
 
-|                                    Features                                      |
-| -------------------------------------- | --------------------------------------- |
-| * Removes Admin user permissions       | * Append tables from another DB         |
-| * Assigns new super user               | * Creates Jet Connection Strings        |
-| * Encrypt database                     | * Opens Secure Databases with MS Access |
-| * MS Access 2000 / 2002 / 2003  format | * Check for Updates                     |
-| * Workgroup creation                   | * Easy to use, help provided            |
+<table>
+  <tr>
+    <td>
+      
+ * Removes Admin user permissions                
+ * Assigns new super user                       
+ * Encrypt database                       
+ * MS Access 2000 / 2002 / 2003  format                    
+ * Workgroup creation     
+      
+    </td>
+    <td>
+      
+ * Append tables from another DB 
+ * Creates Jet Connection Strings 
+ * Opens Secure Databases with MS Access
+ * Check for Updates   
+ * Easy to use, help provided 
 
-
-
-
+    </td>
+  </tr>
+</table>
 
 
 
