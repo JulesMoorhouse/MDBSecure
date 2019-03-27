@@ -10,31 +10,18 @@ Microsoft Access databases are not secure by default. Database security features
 are included in Microsoft Access but different versions of the database have
 different security weaknesses. 
 
-<br/>
-
 There is no single method of making a secure Access database. If you have the
 time, Microsoft provide instructions for manually encrypting passwords and
 enabling security. The security-enabling process can take half an hour per
 database even if you are technically knowledgeable.
-
-<br/>
 
 Our database security software, MDBSecure, makes the process of securing a
 database incredibly easy. Using our security utility, you never be put off
 making your databases secure again. Our security software will aid you in
 closing any security gaps or loopholes in your organisation's data storage.
 
-<br/>
-
 If you want to find out more about how our security software can help you
 protect your data, read on below.
-
-<br/>
-
-The easiest way to find out more is to download the free, no obligations trial
-of our software.
-
-<br/>
 
 Written by [Jules Moorhouse](https://www.julesmoorhouse.com).
 
@@ -46,22 +33,19 @@ Written by [Jules Moorhouse](https://www.julesmoorhouse.com).
 
 # Features and functionality
 
+### What is MDBSecure?
+* An MS Access Security utility, providing protection for your databases.
+* MDBSecure follows the recommended approach to securing Microsoft&reg; Access databases, it will encrypt your access database and remove security weaknesses.
+* SecFaq - Security FAQ (Recommended approach by Microsoft)
+* Although nothing is ever 100% secure in computing, following this approach will make an MS Access Database more secure.
+* For more information about the theory behind securing MS Access databases please see the [SECFAQ](http://web.archive.org/web/20080424151236/http://support.microsoft.com/kb/165009) from the internet archive. SECFAQ which is shortened from 'security FAQ' document.
 
-<h2 class=slim>What is MDBSecure?</h3>
-<Font size="2">
-<li>An MS Access Security utility, providing protection for your databases.</li>
-<br>
-<li>MDBSecure follows the recommended approach to securing Microsoft&reg; Access databases, it will encrypt your access database and remove security weaknesses.</li>
-
-<h2 class=slim>SecFaq - Security FAQ <font size=2>(Recommended approach by Microsoft)</font></h3>
-<li>Although nothing is ever 100% secure in computing, following this approach will make an MS Access Database more secure.</li>
-<br>
-<li>For more information about the theory behind securing MS Access databases please see the <a target="_Blank" href="http://support.microsoft.com/default.aspx?scid=KB;en-us;q165009">SECFAQ</a> (security FAQ) document.</li>  <BR><BR>
+<br />
 
 ## Features                                      
 
-| Features | <!-- --> |
-| - | - |
+|||
+| :- | - |
 | Removes Admin user permissions | Append tables from another DB |
 | Assigns new super user | Creates Jet Connection Strings |
 | Encrypt database | Opens Secure Databases with MS Access |
