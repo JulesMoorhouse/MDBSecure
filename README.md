@@ -26,8 +26,8 @@ protect your data, read on below.
 Written by [Jules Moorhouse](https://www.julesmoorhouse.com).
 
 # Table of contents
-* [Background](#background)
 * [Features and functionality](#features-and-functionality)
+* [Background](#background)
 * [How to build / edit the code](#how-to-build--edit-the-code)
 * [Installation](#installation)
 
