@@ -15,12 +15,12 @@ time, Microsoft provide instructions for manually encrypting passwords and
 enabling security. The security-enabling process can take half an hour per
 database even if you are technically knowledgeable.
 
-Our database security software, MDBSecure, makes the process of securing a
-database incredibly easy. Using our security utility, you never be put off
-making your databases secure again. Our security software will aid you in
+My database security software, MDBSecure, makes the process of securing a
+database incredibly easy. Using my security utility, you never be put off
+making your databases secure again. My security software will aid you in
 closing any security gaps or loopholes in your organisation's data storage.
 
-If you want to find out more about how our security software can help you
+If you want to find out more about how my security software can help you
 protect your data, read on below.
 
 Written by [Jules Moorhouse](https://www.julesmoorhouse.com).
