@@ -40,6 +40,8 @@ Written by [Jules Moorhouse](https://www.julesmoorhouse.com).
 * Although nothing is ever 100% secure in computing, following this approach will make an MS Access Database more secure.
 * For more information about the theory behind securing MS Access databases please see the [SECFAQ](http://web.archive.org/web/20080424151236/http://support.microsoft.com/kb/165009) from the internet archive. SECFAQ which is shortened from 'security FAQ' document.
 
+* For more technical information on how MDBSecure works, download my [Technical Database Security Information White Paper.](https://github.com/Jules2010/MDBSecure/blob/master/whitepaper.pdf)
+
 <br />
 
 ## Features                                      
