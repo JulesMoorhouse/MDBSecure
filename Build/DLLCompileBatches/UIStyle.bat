@@ -9,8 +9,8 @@ echo .
 
 echo .
 Echo Compile and copy ....
-"C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharewareProjs\UIStyle\UIStyle.sln" /rebuild release /out ..\DLLS\Logs\UIStyle.txt
-copy "..\..\CodeLibrary\SharewareProjs\UIStyle\bin\UIStyle.dll" "..\DLLS\Temp\UIStyle.dll"
+"C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharedLibraries\UIStyle\UIStyle.sln" /rebuild release /out ..\DLLS\Logs\UIStyle.txt
+copy "..\..\CodeLibrary\SharedLibraries\UIStyle\bin\UIStyle.dll" "..\DLLS\Temp\UIStyle.dll"
 echo .
 
 echo turn off validation with public keys..
@@ -21,7 +21,7 @@ Echo Obfuscate ....
 echo .
 
 Echo Signing with MCL Key....
-"C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\SDK\v1.1\Bin\sn.exe" -R "..\DLLS\UIStyle.dll" "..\..\CodeLibrary\SharewareProjs\IdeasPad\IdeasPad.snk"
+"C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\SDK\v1.1\Bin\sn.exe" -R "..\DLLS\UIStyle.dll" "..\..\CodeLibrary\SharedLibraries\IdeasPad\IdeasPad.snk"
 echo .
 
 echo Finished and Tidying up
