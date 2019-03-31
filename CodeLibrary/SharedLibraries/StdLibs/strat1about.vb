@@ -4,8 +4,7 @@ Friend Class frmAbout
     Inherits System.Windows.Forms.Form
     Private LangText As System.Resources.ResourceManager = New _
             System.Resources.ResourceManager("Ideaspad.Ideaspad", _
-            System.Reflection.Assembly.GetExecutingAssembly()) 
-    'Dim LangText As System.Resources.ResourceManager 
+            System.Reflection.Assembly.GetExecutingAssembly())
 
 #Region " Windows Form Designer generated code "
 
@@ -50,20 +49,20 @@ Friend Class frmAbout
     Friend WithEvents lblProgRegCaption As System.Windows.Forms.Label
     <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
         Dim resources As System.Resources.ResourceManager = New System.Resources.ResourceManager(GetType(frmAbout))
-        Me.lblProdVer = New System.Windows.Forms.Label()
-        Me.lblProdName = New System.Windows.Forms.Label()
-        Me.lblCompName = New System.Windows.Forms.Label()
-        Me.lblCopyright = New System.Windows.Forms.Label()
-        Me.btnOK = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.lblAddress = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.lblOrderInfo = New System.Windows.Forms.Label()
-        Me.lblEmail = New System.Windows.Forms.Label()
-        Me.lblIssuedDate = New System.Windows.Forms.Label()
-        Me.lblProgRegCaption = New System.Windows.Forms.Label()
-        Me.lblName = New System.Windows.Forms.Label()
-        Me.lblLicense = New System.Windows.Forms.Label()
+        Me.lblProdVer = New System.Windows.Forms.Label
+        Me.lblProdName = New System.Windows.Forms.Label
+        Me.lblCompName = New System.Windows.Forms.Label
+        Me.lblCopyright = New System.Windows.Forms.Label
+        Me.btnOK = New System.Windows.Forms.Button
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox
+        Me.lblAddress = New System.Windows.Forms.Label
+        Me.Label3 = New System.Windows.Forms.Label
+        Me.lblOrderInfo = New System.Windows.Forms.Label
+        Me.lblEmail = New System.Windows.Forms.Label
+        Me.lblIssuedDate = New System.Windows.Forms.Label
+        Me.lblProgRegCaption = New System.Windows.Forms.Label
+        Me.lblName = New System.Windows.Forms.Label
+        Me.lblLicense = New System.Windows.Forms.Label
         Me.SuspendLayout()
         '
         'lblProdVer
@@ -415,25 +414,23 @@ Friend Class frmAbout
 
     Private Sub frmAbout_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
-        
-        If IsAboveOrEqualWinXp() = True Then  
+        If IsAboveOrEqualWinXp() = True Then
             btnOK.FlatStyle = FlatStyle.System
-        End If 
-        
+        End If
 
-        SetBackcolors() 
+        SetBackcolors()
 
         'Remember this form needs adding to the AssemblyInfo ObfuscateBlock section
-        Try 
-            Dim Res As New IPIconsPack.Resource()
+        Try
+            Dim Res As New IPIconsPack.Resource
             PictureBox1.Image = Res.picMCLLogo.Image
-        Catch 
-        End Try 
+        Catch
+        End Try
 
 
         With GetVersionInfo(System.Reflection.Assembly.GetExecutingAssembly.Location)
             Me.Text = NameMe(Me.Text)
-            lblProdName.Text = .ProductName '& "�"
+            lblProdName.Text = .ProductName
             Try
                 lblProdVer.Text = LangText.GetString("IpstdOnly_Version") & " " & .ProductVersion
             Catch
@@ -459,7 +456,6 @@ Friend Class frmAbout
                 lblAddress.Visible = False
                 Me.Height = Me.Height - 88
             End If
-            
         End If
 
         If lintResult <> 0 Then
