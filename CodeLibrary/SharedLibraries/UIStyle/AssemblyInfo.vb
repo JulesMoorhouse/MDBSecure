@@ -14,7 +14,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyCopyright("Copyright� Mindwarp Consultancy Ltd. 2008")>  '2003
 <Assembly: AssemblyTrademark("")> 
 <Assembly: CLSCompliant(True)> 
-<Assembly: AssemblyKeyFile("..\..\..\IdeasPad\ideaspad.snk")> 
+<Assembly: AssemblyKeyFile("..\..\..\..\SharewareProjs\IdeasPad\ideaspad.snk")> 
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
 <Assembly: Guid("9FDD18D5-07FD-48C9-918D-0E9772D6D4D5")> 
