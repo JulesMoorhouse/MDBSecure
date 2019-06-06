@@ -1,7 +1,7 @@
 MDBSecure
 =========
 
-![GitHub](https://img.shields.io/github/license/jules2010/ideaspad.svg) ![GitHub contributors](https://img.shields.io/github/contributors/jules2010/ideaspad.svg) ![GitHub issues](https://img.shields.io/github/issues/jules2010/ideaspad.svg) ![GitHub pull requests](https://img.shields.io/github/issues-pr/jules2010/ideaspad.svg)
+![GitHub](https://img.shields.io/github/license/JulesMoorhouse/ideaspad.svg) ![GitHub contributors](https://img.shields.io/github/contributors/JulesMoorhouse/ideaspad.svg) ![GitHub issues](https://img.shields.io/github/issues/JulesMoorhouse/ideaspad.svg) ![GitHub pull requests](https://img.shields.io/github/issues-pr/JulesMoorhouse/ideaspad.svg)
 [![Languages](https://img.shields.io/badge/language-vb.net-FF69B4.svg)](#)
 
 ### Is YOUR MICROSOFT ACCESS DATABASE Secure?
@@ -44,7 +44,7 @@ Written by [Jules Moorhouse](https://www.julesmoorhouse.com).
 * Although nothing is ever 100% secure in computing, following this approach will make an MS Access Database more secure.
 * For more information about the theory behind securing MS Access databases please see the [SECFAQ](http://web.archive.org/web/20080424151236/http://support.microsoft.com/kb/165009) from the internet archive. SECFAQ which is shortened from 'security FAQ' document.
 
-* For more technical information on how MDBSecure works, download my [Technical Database Security Information White Paper.](https://github.com/Jules2010/MDBSecure/blob/master/whitepaper.pdf)
+* For more technical information on how MDBSecure works, download my [Technical Database Security Information White Paper.](https://github.com/JulesMoorhouse/MDBSecure/blob/master/whitepaper.pdf)
 
 <br />
 
@@ -92,7 +92,7 @@ However you can also use the batch files in the build folder, start with the DLL
 
 # Installation
 
-You can install the app via [MDBSecure.msi](https://github.com/Jules2010/MDBSecure/blob/master/Build/MDBSecure/DistBuild/MDBSecure.msi) which will inform you about any system requirements you don't already have. Once installed, help is provided to guide you through the process.
+You can install the app via [MDBSecure.msi](https://github.com/JulesMoorhouse/MDBSecure/blob/master/Build/MDBSecure/DistBuild/MDBSecure.msi) which will inform you about any system requirements you don't already have. Once installed, help is provided to guide you through the process.
 
 <br/>
 
